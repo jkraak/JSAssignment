@@ -4,4 +4,7 @@ const line2 = "and if one green bottle should accidentally fall, there will be";
 
 console.log(numberOfBottles);
 console.log (line1);
+console.log(numberOfBottles);
+console.log(line1);
+
 
