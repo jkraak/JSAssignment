@@ -27,4 +27,21 @@ const f= -e;
 console.log(f);
 
 const weightInKg= 70;
+const heightInM = 1.82;
+
+const bMI = weightInKg/ Math.pow(heightInM, 2);
+console.log(bMI);
+
+const sideA = 3;
+const sideB = 4;
+const hypotenuse = Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+console.log(hypotenuse);
+
+const seconds = 111;
+const minutes = seconds / 60;
+const remainingSeconds= seconds % 60;
+const remainingMinutes = Math.floor(minutes)
+console.log(remainingMinutes);
+console.log(remainingSeconds);
+
 
