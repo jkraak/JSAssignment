@@ -1,19 +1,19 @@
-let speedInKmH = 72;
-let speedInMpH = speedInKmH * 1000;
-let speedinMpS= speedInMpH / 3600;
+const speedInKmH = 72;
+const speedInMpH = speedInKmH * 1000;
+const speedinMpS= speedInMpH / 3600;
 console.log(speedinMpS);
 
 
-let numberOfMinutes = 3;
-let numberOfSeconds = numberOfMinutes * 60;
+const numberOfMinutes = 3;
+const numberOfSeconds = numberOfMinutes * 60;
 console.log(numberOfSeconds);
 
-let x = 11;
-let y = 4;
-let z=x / y;
+const x = 11;
+const y = 4;
+const z=x / y;
 
 console.log(z)
 
-let d = x % y;
+const d = x % y;
 console.log(d);
 
