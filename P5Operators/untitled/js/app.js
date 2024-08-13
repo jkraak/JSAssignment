@@ -17,3 +17,14 @@ console.log(z)
 const d = x % y;
 console.log(d);
 
+const radius = 2;
+
+const areaOfCircle= Math.PI * (radius * radius);
+console.log(areaOfCircle);
+
+const e = 11;
+const f= -e;
+console.log(f);
+
+const weightInKg= 70;
+
