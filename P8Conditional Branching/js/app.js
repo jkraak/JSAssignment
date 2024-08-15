@@ -50,4 +50,4 @@ else {
 // }
 
 let evenOdd = favouriteNumber % 2 === 0 ? "even" : "odd";
-console.log( "Your favourite number, " + favouriteNumber + ", is " + evenOdd);
+console.log( "Your favourite number, " + favouriteNumber + ", is " + evenOdd + "!");
