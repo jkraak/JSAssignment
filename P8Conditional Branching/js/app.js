@@ -1,4 +1,4 @@
-let birthYear= 2003;
+let birthYear= 2000;
 let favouriteNumber= 21;
 let age= 2024 - birthYear;
 
@@ -19,16 +19,16 @@ else {
   console.log ("Unborn horror")
 }
 
-// if (age > favouriteNumber) {
-//   console.log ("Age is higher");
-// }
-// else if (age == favouriteNumber) {
-//   console.log("Age and favourite number are the same");
-// }
-//
-// else if (age < favouriteNumber) {
-//   console.log ("Age is lower");
-// }
+if (age > favouriteNumber) {
+  console.log ("Age is higher");
+}
+else if (age == favouriteNumber) {
+  console.log("Age and favourite number are the same");
+}
+
+else if (age < favouriteNumber) {
+  console.log ("Age is lower");
+}
 
 if(age<favouriteNumber) {
   console.log(favouriteNumber);
@@ -41,13 +41,13 @@ else {
   console.log(age);
 }
 
-// if (favouriteNumber % 2 == 0) {
-//   console.log (favouriteNumber + " is even!");
-// }
-//
-// else {
-//   console.log(favouriteNumber + " is odd!");
-// }
+if (favouriteNumber % 2 == 0) {
+  console.log (favouriteNumber + " is even!");
+}
+
+else {
+  console.log(favouriteNumber + " is odd!");
+}
 
 let evenOdd = favouriteNumber % 2 === 0 ? "even" : "odd";
 console.log( "Your favourite number, " + favouriteNumber + ", is " + evenOdd + "!");
